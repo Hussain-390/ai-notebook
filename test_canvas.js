@@ -8,7 +8,7 @@ require("dotenv").config({ path: "./backend/.env" });
 
 async function test() {
   await connectDB();
-  const user = await User.findOne({ email: "ramavathshiva6300@gmail.com" });
+  const user = await User.findOne({ email: "sk.mhussain2006@gmail.com" });
   if (!user) {
     console.log("User not found");
     process.exit(1);
